@@ -1,9 +1,9 @@
 # Site settings
-title: Gerald's Blog
+title: "Gerald A. Wakefield"
 email: gwake1@gmail.com	
 description: "The journey of a future full-stack developer"  
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "gwake1.github.io" # the base hostname & protocol for your site
+baseurl: "gwake1.github.io/about"
+url: "gwake1.github.io/about/" # the base hostname & protocol for your site
 twitter_username: gwake1
 github_username:  gwake1
 

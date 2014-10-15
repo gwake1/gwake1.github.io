@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: page
+title: Blog
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Blog Posts</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -20,4 +19,3 @@ layout: default
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</div>
