@@ -1,6 +1,6 @@
 # Site settings
 title: "Gerald A. Wakefield"
-email: gwake1@gmail.com	
+email: "gwake1@gmail.com"	
 description: "The journey of a future full-stack developer"  
 baseurl: ""
 url: "gwake1.github.io" # the base hostname & protocol for your site
