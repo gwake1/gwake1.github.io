@@ -1,10 +1,10 @@
 ---
-title : Gerald A. Wakefield's Resume
+title : Resume
 permalink : /Resume/
 layout: default
 ---
 
-[Gerald A. Wakefield]({{ gwake1.github.io }}/assets/Gerald_A_Wakefield_Resume.pdf)<br>
+<h1>Gerald A. Wakefield</h1><br>
 e-mail: [gwake1@gmail.com]({{ site.email }})<br>
 phone: [(615) 988-1669]({{site.phone}})
 
