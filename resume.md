@@ -3,25 +3,33 @@ title : Resume
 permalink : /Resume/
 layout: default
 ---
+<section id="resume">
+<div class="preamble"><h1>Gerald A. Wakefield</h1></div>
 
-<h1>Gerald A. Wakefield</h1><br>
-e-mail: [gwake1@gmail.com]({{ site.email }})<br>
-phone: [(615) 988-1669]({{site.phone}})
+<h2>Education:</h2>
+<h3><span class="school">Nashville Software School</span><span class="graduation_date">Expected March 2015</span><br>
+<span class="title">Apprentice</span><span class="location">Nashville, TN</span></h3>
+<h4><span class="job_description">Software Development Foundations</span></h4>
+<span class="job_description_bullets">C# and .NET Framework</span>
+<h4><span class="job_description">Front-End Web Development Foundations</span>
+<span class="job_description_bullets">
+<ul class="job_description_bullets">
+<li><strong>HTML5 and CSS3:</strong></li>
+<li><strong>JavaScript:</strong></li>
+<li><strong>JavaScript Libraries:</strong></li>
+<li><strong>Angular JS:</strong></li>
+<li><strong>Responsive Design:</strong></li>
+<li><strong>Command Line:</strong></li>
+<li><strong>Collaborative Development:</strong></li>
+<li><strong>Git Hub:</strong></li>
+<li><strong>Testing & Debugging:</strong></li>
+</ul>
+</span></h4>
+<h3><span class="school">Vanderbilt University</span><span class="graduation_date">Spring 2015</span><br>
+<span class="title"><em>Bachelor of Arts</em> in Economics </span><span class="location">Nashville, TN</span></h3>
 
-<section class="workExperience">
+
   <h2>Work Experience</h2>
-
-
-  <h3>Student (current)</h3>
-  Nashville Software School
-  Nashville, TN
-  <span id="begin">October 2014</span>
-  <span id="end">March 2015</span>
-  <ul>
-    <li>Front End Web Development</li>
-    <li>Software Development Foundations</li>
-  </ul>
-
   <h3>Management Engineer Technician</h3>
   HCA Physician Services
   Brentwood, TN
@@ -35,6 +43,7 @@ improvements in healthcare physician practice management.</li>
   </ul>
 </section>
 
+<h2>Links:</h2>
 [ ![Vanderbilt Investment Committee]({{gwake1.github.io}}/assets/VIC.png)]({{ gwake1.github.io }}/assets/UHG_VIC.pdf)
 
 [ ![VUMC]({{gwake1.github.io}}/assets/vumc-drtc.png)]({{gwake1.github.io}}/assets/2012DRTC.pdf)

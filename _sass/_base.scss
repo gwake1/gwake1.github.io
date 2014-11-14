@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: 2px;
 }
 
 
@@ -51,15 +51,17 @@ ul, ol, dl, figure,
 /**
  * Images
  */
-img {
-    max-width: 40%;
-    vertical-align: middle;
-    border-radius: 20%;
+ img.profile-photo {
+   max-width: 40%;
+   float: left;
+   vertical-align: middle;
+   border-radius: 20%;
+   margin: 0 5% 20px 0;
+ }
+img:not(.profile-photo) {
+    max-height: 100px;
 }
-.profile-photo {
-	float: left;
-	margin: 0 5% 20px 0;
-}
+
 #background {
 position: fixed;
 	min-width: 100%;
@@ -231,4 +233,29 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+#resume .preamble {
+  border-bottom: solid 1px black;
+  text-align: center;
+}
+
+span.school {
+  display: inline;
+}
+span.graduation_date {
+  display: block;
+  float:right;
+}
+span.title {
+  clear:left;
+  display: inline-block;
+  margin: 0 1em;
+}
+span.location {
+  display: inline-block;
+  float: right;
+}
+span.job_description_bullets {
+  margin:0 1em;
 }
