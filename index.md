@@ -18,7 +18,6 @@ layout: default
 <li>Automotive Enthusiast</li>
 </ul>
 <div class="about-content">
-Hello World!!!
 </div>
 <div class="subscribe">
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

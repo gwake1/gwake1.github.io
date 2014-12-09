@@ -25,7 +25,7 @@ layout: default
 <li><strong>Testing & Debugging:</strong></li>
 </ul>
 </span></h4>
-<h3><span class="school">Vanderbilt University</span><span class="graduation_date">Spring 2015</span><br>
+<h3><span class="school">Vanderbilt University</span><span class="graduation_date">Spring 2013</span><br>
 <span class="title"><em>Bachelor of Arts</em> in Economics </span><span class="location">Nashville, TN</span></h3>
 
 
