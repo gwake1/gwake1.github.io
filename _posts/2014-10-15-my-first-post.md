@@ -1,25 +1,25 @@
 ---
 layout: post
-title:  "My First Post!"
+title:  "My First Post! Coding is Insanity"
 date:   2014-10-15 11:24
 categories: jekyll update
 ---
 Hello World!
 
-This is my first blog post as a student in Cohort 7 at the Nashville Software School.  My time here so far has been exciting and stimulating.  NSS really delivers on the immersive aspect of this program.  I strongly caution anyone considering this program to be devoted to learning like this is a new language.
+Welcome to my first blog post.  In this and future posts I am going to inform you on my choice to become a web developer.  This blog will be my outlet for frustration and sharing knowledge.  So you may ask... why become a developer?
+<br>
+<h1><em>Because Coding is Insanity!</em></h1>
 
-As part of learning any new language you build your foundation in the structure of the language.  Simple things like properly tabbing each line of code allow others to breeze through what you are trying to communicate.  These foundations instill the necessary skills of attention-to-detail which is necessary for a career in this field.
+First off, we are talking to computers.  How fricking cool is that?!  Well, sometimes computers aren't that smart.  You may have one idea in your head but when you ask the computer it just returns undefined or some kind of NullReferenceException.  At this point, I normally tell the computer "Its not you, it's me, and that is why I have to leave you now."
 
-Before you can speak the language like a native, you often times have to check your references.  I have been able to rely on Google searches, IRC and pure frustration to constantly enhance my understanding of this new language.  One way in which I have gained a new appreciation for this field has been through monitoring the ways in which I benefit from others' content.
+It really is amazing how we can communicate to machines.  How semantic meaning from our brains can be translated, into code that the computer understands, blows my mind.  This is such a feat that, rarely am I surprised that the computer doesn't understand what I am saying.
 
-It is very tempting to retrofit your site based off of what somebody else has already done.  This method, however, does not contribute to the process of learning.  Despite the common saying "Good artists copy, great artists steal" every artist has a style.  The artist's style is steeped in the foundations of how he learned his craft.  As easily as Rembrandt's baroque style of painting clashes with Degas impressionist surrealism.  At the core of every work there are identifiable markers.
+The lack of surprise comes from realizing that this computer is no dummy.  The computer probably understands the structure of language better than I do.  In fact, I know it does.  So it's no surprise when it politely tells me that I don't know what I'm doing.  From the computer's, perspective it's like trying to talk to a baby, and I am the baby.
 
-I am not trying to say what we do as developers is an art, but stealing from others cheapens our work and our ability.  One unexpected consequence of beginning this path is a greater appreciation for others' intellectual property.  Having gone through the process of building a site and making sure every detail is right, it is a smack-in-the-face to see someone else copy my work.  Not that I have seen anyone copy my work in this manner, but some of my classmates have.
+<h1><em>If at first you don't succeed, you probably won't the second time... nor the third...</em></h1>  
 
-As a token of respect to all those who have come before me I will engage in using a Creative Commons License for all of my work created while at the Nashville Software School.  More specifically, I will engage in licensing my work as an Attribution-NonCommercial 4.0 International.  This allows others to share and adapt my work for non-commercial use.  I don't intend to profit directly from the information that I contribute to this site but will contribute in kind to the many free resources that have been made available to me.  
+This is why coding is insanity, because it is fraught with failure.  Never has the saying that "Success is 10% inspiration and 90% perspiration" been more true.  I constantly beat my head against the wall and this is why I have chosen to become a developer.  
 
-The <a href="https://creativecommons.org/choose/"> Creative Commons website</a> has been a useful source and provide some peace of mind.  The license agreement between content providers and users helps to maintain a collaborative environment with understood ground rules.
+All around the world people are beating their heads against the wall, and its not only the cool kids either.  Software development is to the 21st century what the railroad and automobile were to the 19th and 20th.  Software development is living in the world of rapid invention.  I want to be a part of this process.  To be a software developer is like becoming the modern day Renaissance man.  
 
-I want to welcome you to my blog where you can expect to receive technical and general updates on my progress towards becoming a full-stack developer.  My hope is that this site may serve as a reference to individuals in need for a way to understand their new craft at similar stages of progression.  
-
-The saga will continue, check back for more updates!
+We are living in times that are rapidly changing.  The traditional economy is constantly being challenged.  The nature of employment is ever evolving. Much of this can be contributed to computers.  We are living in an age where more and more people are being paid to think rather than to complete mindless repetitive tasks.  The computer now and will continue in the future to take responsibility for mentally tasking low skill repetitive chores. The process by which it does this may be disruptive but it will make way to provide time for us to do more of what matters.  I don't know where the future of our economy may lie but we are using computers and softwares to make our lives more efficient.  It is my belief ultimately that this will increase everyone's quality of life.  This is why I have chosen to become a developer, because there is vast opportunity to increase the efficency and optimization of products, services, and platforms to increase our wellbeing. What a time to be alive.

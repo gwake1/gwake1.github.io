@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "More to Come!"
+title:  "How random is random really?"
 date:   2014-10-16 11:45
 categories: jekyll update
 ---
