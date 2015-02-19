@@ -5,7 +5,7 @@ exclude: [".gitignore", ".git", "config.rb", "package.json", "Gruntfile.js", "bo
 title: "Gerald A. Wakefield"
 email: "gwake1@gmail.com"
 phone: "(615) 988-1669"
-description: "The journey of a future full-stack developer"
+description: "The personal website of Gerald A. Wakefield documenting success and failure to become a software developer."
 baseurl: ""
 url: "gwake1.github.io"
 environment: production
@@ -16,6 +16,7 @@ timezone: America/Chicago
 
 permalink: /:year/:month/:title/
 paginate: 5
+paginate_path: "blog/page:num/"
 
 # INK LATEST VERSION
 version: 3.1.4
@@ -173,3 +174,4 @@ releases:
 
 # Build settings
 markdown: kramdown
+permalink: pretty
