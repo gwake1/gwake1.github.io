@@ -1,29 +1,32 @@
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="google-site-verification" content="WYO-XLjKAA_38meMONnz2WJIbTpJgxOezfapwYjTcYA" />
+    <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
-    <meta name="keyword" content="Nashville Software School, Gerald Wakefield, C#, ASP.NET, WPF, Entity Framework, LINQ, Ajax.Net, Jquery">
-    <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@site_username">
-  <meta name="twitter:creator" content="@creator_username">
-  {% if page.title %}
-    <meta name="twitter:title" content="{{ page.title }}">
-  {% else %}
-    <meta name="twitter:title" content="{{ site.title }}">
-  {% endif %}
-  {% if page.url %}
-    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
-  {% endif %}
-  {% if page.description %}
-    <meta name="twitter:description" content="{{ page.description }}">
-  {% else %}
-    <meta name="twitter:description" content="{{ site.description }}">
-  {% endif %}
-
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
-    {% include google_analytics.html %}
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
+    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+  <!-- Load c3.css -->
+  <link href="{{"/bower_components/c3/c3.css" | prepend: site.baseurl}}" rel="stylesheet" type="text/css">
+
+  <!-- Load d3.js and c3.js -->
+  <script src="{{"/bower_components/d3/d3.js" | prepend: site.baseurl}}" charset="utf-8"></script>
+  <script src="{{"/bower_components/c3/c3.js" | prepend: site.baseurl}}"></script>
+  
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>

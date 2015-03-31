@@ -1,49 +1,25 @@
-# JEKYLL
-exclude: [".gitignore", ".git", "config.rb", "package.json", "Gruntfile.js", "bower_components", ".travis.yml", "ai", "src", "VERSION", "LICENSE", "README.md", "icon.png", "node_modules"]
-
 # Site settings
-title: "Gerald A. Wakefield"
-email: "gwake1@gmail.com"
-phone: "(615) 988-1669"
-description: "The personal website of Gerald A. Wakefield documenting success and failure to become a software developer."
-baseurl: ""
-url: "gwake1.github.io"
-environment: production
-twitter_username: gwake1
-github_username:  gwake1
-safe: true
-timezone: America/Chicago
+title: Gerald's Portfolio
+email: gwake1@gmail.com
+url: http://geraldwakefield.io
+description: "I am a poassionate junior software developer producing applications to communicate detailed information in meaningful ways."
 
-permalink: /:year/:month/:title/
-paginate: 5
-paginate_path: "blog/page:num/"
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
 
-# INK LATEST VERSION
-version: 3.1.4
+# Footer settings
+footer: Gerald A. Wakefield
 
-# URLS
-cdn_url: http://fastly.ink.sapo.pt/
-
-sections:
-  - title: Blog
-  - title: Portfolio
-    components:
-      - title: Grid
-        topics:
-          - title: Basic principles
-
-releases:
-  - 3.0.0
-  - 2.3.2
-  - 2.3.1
-  - 2.3.0
-  - 2.2.1
-  - 2.2.0
-  - 2.1.1
-  - 2.1.0
-  - 2.0.0
-  - 1.1.0
-  - 0.1.0
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: https://github.com/gwake1
+  - title: linkedin
+    url: https://www.linkedin.com/in/geraldawakefield
+  - title: twitter
+    url: https://twitter.com/gwake1
 
 # Build settings
 markdown: kramdown

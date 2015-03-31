@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-  {% include document-top.html %}
-</head>
-  <body>
-    {% include top-navigation.html %}
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-  </body>
+    {% include head.html %}
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    {% include nav.html %}
+    {% include header.html %}
+    {% include about.html %}
+    {% include download.html %}
+    {% include contact.html %}
+
+    {% include footer.html %}
+    {% include js.html %}
+
+    <script src="{{"/js/app.js" | prepend: site.baseurl}}"></script>
+    </body>
 </html>
